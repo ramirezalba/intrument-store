@@ -1,4 +1,168 @@
-*{
-
+@import url("https://fonts.googleapis.com/css2?family=Bungee+Tint&family=Codystar:wght@300;400&family=Honk:MORF,SHLN@23,7.9&family=Kalnia+Glaze:wght@100..700&family=League+Script&family=Rubik+Puddles&family=WindSong:wght@400;500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Archivo:ital,wght@0,100..900;1,100..900&family=Bungee+Tint&family=Codystar:wght@300;400&family=Honk:MORF,SHLN@23,7.9&family=Kalnia+Glaze:wght@100..700&family=League+Script&family=Rubik+Puddles&family=WindSong:wght@400;500&display=swap");
+body,
+h1,
+h2,
+p,
+ul,
+li,
+form,
+input,
+textarea,
+button {
+  margin: 0;
+  padding: 0;
+  font-family: "Arial", sans-serif;
 }
 
+body {
+  background: #f8f4f9;
+  color: #444;
+  line-height: 1.6;
+  background-image: url(https://i.pinimg.com/736x/cd/cc/81/cdcc81a3f775b0a358bef839557bf795.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  backdrop-filter: blur 15%;
+}
+
+header {
+  background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRK3IN3CVNT4HEsysuwlOBky5PIgogWaNzOvQ&s);
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+  padding: 20px 40px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 0 0 10px 10px;
+}
+
+header h1 {
+  margin: 0;
+  font-size: 36px;
+  font-weight: bold;
+  letter-spacing: 1px;
+  font-family: "Bungee Tint", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+i {
+}
+
+nav a {
+  margin: 0 20px;
+  color: rgb(54, 11, 11);
+  text-decoration: none;
+  font-size: 18px;
+  text-transform: uppercase;
+  font-family: "Archivo", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+  font-variation-settings: "wdth" 100;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+section {
+  padding: 40px 20px;
+  max-width: 1100px;
+  margin: 0 auto;
+}
+
+h2 {
+  margin-bottom: 20px;
+  font-size: 28px;
+  color: #663e2b;
+  font-weight: bold;
+  font-family: "Archivo", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+  font-variation-settings: "wdth" 100;
+}
+
+#about p {
+  font-size: 18px;
+  color: #555;
+  margin-bottom: 20px;
+  font-family: "Archivo", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+  font-variation-settings: "wdth" 100;
+}
+
+#services ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+#services ul li {
+  background: #fff0e6;
+  margin-bottom: 15px;
+  padding: 10px 20px;
+  border-radius: 8px;
+  border-left: 5px solid #99775b;
+  font-size: 18px;
+}
+
+#services ul li strong {
+  font-weight: bold;
+}
+
+.contact-form input,
+.contact-form textarea {
+  width: 100%;
+  padding: 12px;
+  margin: 10px 0;
+  border-radius: 8px;
+  border: 1px solid #dbae88;
+  background-color: #fff9f1;
+  color: #555;
+}
+
+.contact-form button {
+  background-color: #996750;
+  border: none;
+  padding: 12px 25px;
+  color: white;
+  font-size: 16px;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.contact-form button:hover {
+  background-color: #471e18;
+}
+
+footer {
+  background-color: #c7a1885e;
+  text-align: center;
+  padding: 20px 0;
+  color: white;
+  border-radius: 10px 10px 0 0;
+}
+
+footer p {
+  margin: 0;
+  font-size: 14px;
+}
+
+#contact p {
+  font-size: 16px;
+  color: #555;
+}
+
+#contact a {
+  color: #b8836f;
+  text-decoration: none;
+}
+
+#contact a:hover {
+  text-decoration: underline;
+}
