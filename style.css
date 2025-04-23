@@ -1,5 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Bungee+Tint&family=Codystar:wght@300;400&family=Honk:MORF,SHLN@23,7.9&family=Kalnia+Glaze:wght@100..700&family=League+Script&family=Rubik+Puddles&family=WindSong:wght@400;500&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Archivo:ital,wght@0,100..900;1,100..900&family=Bungee+Tint&family=Codystar:wght@300;400&family=Honk:MORF,SHLN@23,7.9&family=Kalnia+Glaze:wght@100..700&family=League+Script&family=Rubik+Puddles&family=WindSong:wght@400;500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@400;700;900&family=Londrina+Outline&family=Londrina+Shadow&family=Meddon&display=swap");
 body,
 h1,
 h2,
@@ -22,19 +23,46 @@ body {
   background-image: url(https://i.pinimg.com/736x/cd/cc/81/cdcc81a3f775b0a358bef839557bf795.jpg);
   background-size: cover;
   background-repeat: no-repeat;
-  backdrop-filter: blur 15%;
+  backdrop-filter: blur (15px);
+}
+
+.class img {
+  position: relative;
+  width: 15%;
+  right: 5%;
+}
+
+img {
+}
+
+.example {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.example img {
+  gap: 24em;
+  position: sticky;
+  border-radius: 10px;
+  align-items: center;
+  width: 35%;
+  padding: 5%;
+  margin: 0;
+  display: flex;
+  justify-content: space-between;
 }
 
 header {
-  background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRK3IN3CVNT4HEsysuwlOBky5PIgogWaNzOvQ&s);
+  background-image: url(https://www.shutterstock.com/image-photo/piano-keyboard-background-set-music-260nw-1691839939.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   color: white;
-  padding: 20px 40px;
+  padding: 40px 80px;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  border-radius: 0 0 10px 10px;
+  backdrop-filter: blur (15px);
 }
 
 header h1 {
@@ -47,20 +75,15 @@ header h1 {
   font-style: normal;
 }
 
-i {
-}
-
 nav a {
   margin: 0 20px;
   color: rgb(54, 11, 11);
   text-decoration: none;
   font-size: 18px;
   text-transform: uppercase;
-  font-family: "Archivo", sans-serif;
-  font-optical-sizing: auto;
-  font-weight: <weight>;
+  font-family: "Cinzel Decorative", serif;
+  font-weight: 700;
   font-style: normal;
-  font-variation-settings: "wdth" 100;
 }
 
 nav a:hover {
@@ -118,10 +141,9 @@ h2 {
 .contact-form textarea {
   width: 100%;
   padding: 12px;
-  margin: 10px 0;
   border-radius: 8px;
   border: 1px solid #dbae88;
-  background-color: #fff9f1;
+  background-color: #fff9f15d;
   color: #555;
 }
 
@@ -165,4 +187,8 @@ footer p {
 
 #contact a:hover {
   text-decoration: underline;
+}
+
+#services {
+  font-style: italic;
 }

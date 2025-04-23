@@ -3,8 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Harmony Haven - The Music Store</title>
-    <!-- Link to the external stylesheet -->
+    <title>Instrument store</title>
     <link rel="stylesheet" href="style.css" />
     <script
       src="https://kit.fontawesome.com/00a9d7f54f.js"
@@ -12,15 +11,20 @@
     ></script>
   </head>
   <body>
-    <header>
-      <i class="fa-solid fa-guitar"></i>
-      <h1>Instrument store</h1>
-      <nav>
-        <a href="#about">About Us</a>
-        <a href="#services">Services</a>
-        <a href="#contact">Contact</a>
-      </nav>
-    </header>
+    <div class="class">
+      <header>
+        <img
+          src="https://images.prismic.io/brandfetch/b11dfa3a-a724-4034-b767-0855fc0a6671_2.png?auto=compress,format"
+          alt=""
+        />
+        <h1>Instrument store</h1>
+        <nav>
+          <a href="#about">About us</a>
+          <a href="#services">Services</a>
+          <a href="#contact">Contact</a>
+        </nav>
+      </header>
+    </div>
 
     <section id="about">
       <h2>About Us</h2>
@@ -29,6 +33,16 @@
         that you could imagine, and also we have the accesories for them!
       </p>
     </section>
+    <div class="example">
+      <img
+        src="https://images.unsplash.com/photo-1627411187044-cc7a4daaca7d?fm=jpg&q=60&w=3000&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8YnJhc3MlMjBpbnN0cnVtZW50c3xlbnwwfHwwfHx8MA%3D%3D"
+        alt=""
+      />
+      <img
+        src="https://images.pexels.com/photos/1327430/pexels-photo-1327430.jpeg?cs=srgb&dl=pexels-reneterp-1327430.jpg&fm=jpg"
+        alt=""
+      />
+    </div>
 
     <section id="services">
       <h2>Our Services</h2>
@@ -52,19 +66,13 @@
     <section id="contact">
       <h2>Contact Us</h2>
       <form class="contact-form">
-        <input type="text" name="name" placeholder="Your Name" required />
-        <input type="email" name="email" placeholder="Your Email" required />
-        <textarea
-          name="message"
-          rows="5"
-          placeholder="Your Message"
-          required
-        ></textarea>
-        <button type="submit">Send Message</button>
+        <input type="text" name="name" placeholder="Your name" required />
+        <input type="email" name="email" placeholder="Your email" required />
+        <textarea name="message" placeholder="Your Message" required></textarea>
+        <button type="submit">Send message</button>
       </form>
     </section>
 
-    <!-- Footer -->
     <footer>
       <p>&copy; 2025 instrument store</p>
     </footer>
