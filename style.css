@@ -23,7 +23,7 @@ body {
   background-image: url(https://i.pinimg.com/736x/cd/cc/81/cdcc81a3f775b0a358bef839557bf795.jpg);
   background-size: cover;
   background-repeat: no-repeat;
-  backdrop-filter: blur (15px);
+  backdrop-filter: blur (35px);
 }
 
 .class img {
@@ -39,6 +39,11 @@ img {
   display: flex;
   align-items: center;
   justify-content: space-between;
+  background-image: url(https://cdn.pixabay.com/photo/2023/12/22/16/29/sheet-music-8463988_1280.jpg);
+  backdrop-filter: (50px);
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-radius: 5%;
 }
 
 .example img {
@@ -49,8 +54,10 @@ img {
   width: 35%;
   padding: 5%;
   margin: 0;
+  opacity: 0;
   display: flex;
   justify-content: space-between;
+  animation: show 1s 1s linear forwards;
 }
 
 header {
@@ -77,17 +84,18 @@ header h1 {
 
 nav a {
   margin: 0 20px;
-  color: rgb(54, 11, 11);
   text-decoration: none;
   font-size: 18px;
-  text-transform: uppercase;
-  font-family: "Cinzel Decorative", serif;
-  font-weight: 700;
+  font-family: "Bungee Tint", sans-serif;
+  font-weight: 400;
   font-style: normal;
+  transition: 0.75s;
+  color: #471e18;
 }
 
 nav a:hover {
   text-decoration: underline;
+  color: rgb(126, 26, 26);
 }
 
 section {
@@ -163,11 +171,14 @@ h2 {
 }
 
 footer {
-  background-color: #c7a1885e;
+  background-color: #a53b345e;
   text-align: center;
   padding: 20px 0;
-  color: white;
+  color: rgb(192, 28, 28);
   border-radius: 10px 10px 0 0;
+  font-family: "Bungee Tint", sans-serif;
+  font-weight: 400;
+  font-style: normal;
 }
 
 footer p {
@@ -191,4 +202,14 @@ footer p {
 
 #services {
   font-style: italic;
+}
+
+@keyframes show {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
 }
