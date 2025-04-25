@@ -36,6 +36,7 @@ img {
 }
 
 .example {
+  opacity: 0.5;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -44,6 +45,11 @@ img {
   background-size: cover;
   background-repeat: no-repeat;
   border-radius: 5%;
+}
+
+.example::after {
+  content: "";
+  opacity: 1;
 }
 
 .example img {
@@ -70,6 +76,8 @@ header {
   justify-content: space-between;
   align-items: center;
   backdrop-filter: blur (15px);
+  z-index: 1;
+  position: fixed;
 }
 
 header h1 {
@@ -114,6 +122,10 @@ h2 {
   font-weight: <weight>;
   font-style: normal;
   font-variation-settings: "wdth" 100;
+}
+
+#about h2 {
+  margin-top: 30%;
 }
 
 #about p {
@@ -176,14 +188,14 @@ footer {
   padding: 20px 0;
   color: rgb(192, 28, 28);
   border-radius: 10px 10px 0 0;
-  font-family: "Bungee Tint", sans-serif;
-  font-weight: 400;
-  font-style: normal;
 }
 
 footer p {
   margin: 0;
   font-size: 14px;
+  font-family: "Bungee Tint", sans-serif;
+  font-weight: 400;
+  font-style: normal;
 }
 
 #contact p {
