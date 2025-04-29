@@ -36,7 +36,6 @@ img {
 }
 
 .example {
-  opacity: 0.5;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -49,7 +48,7 @@ img {
 
 .example::after {
   content: "";
-  opacity: 1;
+  opacity: 0.5;
 }
 
 .example img {
